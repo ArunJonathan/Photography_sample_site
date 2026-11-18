@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Photography Wedding Stories — Photography</title>
+  <link rel="icon" href="/favicon.ico" />
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body class="bg-zinc-950 text-zinc-100">
+  <header class="sticky top-0 z-50 backdrop-blur bg-zinc-950/70 border-b border-zinc-800">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="/index.html" class="group inline-flex items-center gap-3">
+        <div class="h-9 w-9 rounded-2xl bg-zinc-900 grid place-items-center ring-1 ring-zinc-800 group-hover:ring-zinc-600 transition">
+          <span class="font-serif text-xl">B</span>
+        </div>
+        <div class="leading-tight">
+          <div class="font-serif text-xl">Photography</div>
+          <div class="text-xs text-zinc-400 tracking-wide">Wedding Stories</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a class="nav-link" href="/portfolio.html">Portfolio</a>
+        <a class="nav-link" href="/services.html">Services</a>
+        <a class="nav-link" href="/about.html">About</a>
+        <a class="nav-link" href="/contact.html">Contact</a>
+        <a href="/contact.html#book" class="btn-primary">Book a Session</a>
+      </nav>
+      <button id="mobileToggle" class="md:hidden p-2 rounded-xl ring-1 ring-zinc-800">Menu</button>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t border-zinc-800">
+      <nav class="px-4 py-2 flex flex-col gap-2">
+        <a class="nav-mobile" href="/portfolio.html">Portfolio</a>
+        <a class="nav-mobile" href="/services.html">Services</a>
+        <a class="nav-mobile" href="/about.html">About</a>
+        <a class="nav-mobile" href="/contact.html">Contact</a>
+        <a class="btn-primary w-full text-center mt-1" href="/contact.html#book">Book a Session</a>
+      </nav>
+    </div>
+  </header>
+<main>
+  <!-- HERO -->
+  <section class="relative overflow-hidden">
+    <div class="relative max-w-7xl mx-auto px-4 pt-16 md:pt-28 pb-24 grid md:grid-cols-2 gap-10 items-center">
+      <div class="reveal">
+        <h1 class="font-serif text-4xl md:text-6xl leading-tight">Timeless wedding stories, captured with grace.</h1>
+        <p class="text-zinc-400 mt-5 max-w-prose">We document the laughter, the quiet glances, and the heartfelt vows—delivering an editorial look that still feels like you.</p>
+        <div class="mt-8 flex gap-3">
+          <a href="/portfolio.html" class="btn-primary">View Portfolio</a>
+          <a href="/contact.html#book" class="btn-secondary">Check Availability</a>
+        </div>
+      </div>
+      <div class="relative reveal">
+        <div class="card-hero">
+          <img class="rounded-3xl w-full h-full object-cover" src="/assets/img/photo_01.jpg" alt="Wedding Moments">
+        </div>
+        <div class="card-hero mt-6">
+          <img class="rounded-3xl w-full h-full object-cover" src="/assets/img/photo_02.jpg" alt="Bridal Portrait">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="max-w-7xl mx-auto px-4 pb-10">
+    <div class="grid md:grid-cols-3 gap-6">
+      <a class="category" href="/portfolio.html#weddings">
+        <img src="/assets/img/photo_03.jpg" class="category-img" alt="Weddings">
+        <div class="category-overlay"><span>Weddings</span></div>
+      </a>
+      <a class="category" href="/portfolio.html#engagements">
+        <img src="/assets/img/photo_04.jpg" class="category-img" alt="Engagements">
+        <div class="category-overlay"><span>Engagements</span></div>
+      </a>
+      <a class="category" href="/portfolio.html#portraits">
+        <img src="/assets/img/photo_05.jpg" class="category-img" alt="Portraits">
+        <div class="category-overlay"><span>Portraits</span></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="max-w-5xl mx-auto px-4 mt-20 reveal">
+    <div class="rounded-3xl border border-zinc-800 p-8 md:p-14 bg-gradient-to-b from-zinc-900/40 to-zinc-900/10">
+      <p class="text-lg md:text-xl italic leading-relaxed">“We’re still in awe. Every photograph feels alive—the joy, the tears, the warmth. The album is a treasure.”</p>
+      <div class="mt-6 text-sm text-zinc-400">— Nethmi & Tharaka</div>
+    </div>
+  </section>
+</main>
+  <footer class="mt-24 border-t border-zinc-800">
+    <div class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8">
+      <div>
+        <div class="font-serif text-2xl">Photography</div>
+        <p class="text-sm text-zinc-400 mt-2 max-w-xs">Sri Lanka-based wedding storytellers crafting timeless, elegant imagery for couples worldwide.</p>
+      </div>
+      <div>
+        <div class="text-sm uppercase tracking-wider text-zinc-400">Explore</div>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li><a class="link" href="/portfolio.html">Portfolio</a></li>
+          <li><a class="link" href="/services.html">Services</a></li>
+          <li><a class="link" href="/about.html">About</a></li>
+          <li><a class="link" href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="text-sm uppercase tracking-wider text-zinc-400">Get in touch</div>
+        <p class="text-sm text-zinc-400 mt-3">Colombo, Sri Lanka<br/>hello@Photography.example</p>
+        <a href="/contact.html#book" class="btn-primary mt-4 inline-block">Book a Session</a>
+      </div>
+    </div>
+    <div class="text-center text-xs text-zinc-500 py-6 border-t border-zinc-900">&copy; <span id="year"></span> Photography Wedding Stories. All rights reserved.</div>
+  </footer>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
